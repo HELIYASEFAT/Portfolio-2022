@@ -1,0 +1,26 @@
+
+body {
+    padding: 20px;
+    width:99vw;
+    background-color: #709680;
+}
+.container {
+    width: 25%;
+    padding: 10px;
+    padding-top: 40px;
+    margin-left: 100px;
+    margin-right: 120px;
+    align-items: center;
+    justify-content: center;
+    border-style:hidden;
+    
+
+}
+img {
+    /* position: absolute; */
+    width: 80%;
+    margin: 0 auto;
+    position:initial;
+    padding-top: 1px;
+    
+}

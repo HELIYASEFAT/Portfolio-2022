@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+ }
+ 
+ body {
+    padding: 20px;
+    width:99vw;
+  
+    background-color: antiquewhite;
+ 
+ 
+ }
+ .flex-container {
+ 
+       /* position: relative; */
+       width: 80%;
+       
+       padding: 10px;
+       padding-top: 160px;
+       margin-left: 140px;
+       margin-right: 140px;
+       align-items: center;
+       justify-content: center;
+       
+       
+   }
+   img {
+    /* position: absolute; */
+    width: 80%;
+    margin: 0 auto;
+    position:initial;
+    padding-top: 1px;
+    
+ }
