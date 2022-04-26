@@ -98,12 +98,12 @@ h1 {
     display: flex;
     flex-flow: column nowrap;
     justify-content: space-around;
-    padding: 10px;
+   
     height: 50%;
   }
   .ham-menu > ul > li {
     font-size: 2.2rem;
-    white-space: nowrap;
+
     letter-spacing: 0.15em;
     cursor: pointer;
     color: rgb(97, 97, 97);
@@ -203,8 +203,6 @@ h1 {
   a::after {
     content: "\e806";
     display: inline-block;
-
-    padding: 5px;
     font-size: 1.6rem;
     transform: rotate(-90deg);
   }
