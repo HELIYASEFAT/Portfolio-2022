@@ -98,12 +98,13 @@ h1 {
     display: flex;
     flex-flow: column nowrap;
     justify-content: space-around;
-   
+    padding:20px;
     height: 50%;
   }
   .ham-menu > ul > li {
     font-size: 2.2rem;
-
+    white-space: nowrap;
+    text-decoration: none;
     letter-spacing: 0.15em;
     cursor: pointer;
     color: rgb(97, 97, 97);
@@ -188,9 +189,9 @@ h1 {
   a {
     
     line-height: 1.5em;
-    text-decoration: none;
+    text-decoration: inherit;
     font-family: 'Dawning of a New Day', cursive;
-    display: inline;
+    
     font-weight: bold;
     
     color: var(--icon-hover-bg);
@@ -200,13 +201,47 @@ h1 {
     cursor: pointer;
     color: rgb(97, 97, 97);
   }
+  a:link{ text-decoration: none;
+  }
+  a:hover{
+    text-decoration: underline;
+  }
   a::after {
     content: "\e806";
     display: inline-block;
     font-size: 1.6rem;
     transform: rotate(-90deg);
   }
- 
+  .text {
+    font-size: 2.5rem;
+    line-height: 1.5em;
+    word-spacing: 0.5em;
+    letter-spacing: 0.1em;
+    font-family: "OpenSansCondensed-Bold", sans-serif;
+  }
+  .title {
+    font-size: 3rem;
+    line-height: 1.5em;
+    word-spacing: 0.5em;
+    letter-spacing: 0.1em;
+    font-family: "OpenSansCondensed-Bold", sans-serif;
+    color: var(--icon-hover-bg);
+    padding: 10px;
+  }
+  .heading {
+    font-size: 6rem;
+    line-height: 1.5em;
+    word-spacing: 0.5em;
+    letter-spacing: 0.1em;
+    font-family: "Patua One";
+  }
+  .centre-text {
+    text-align: center;
+  }
+  .bold-text {
+    font-weight: bold;
+  }
+  
   .centre-text {
     text-align: center;
   }
