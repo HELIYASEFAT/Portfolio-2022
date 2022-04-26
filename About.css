@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  } 
+body{
+    padding:150px;
+    background-color: #a8c3b3;
+    margin: 0 auto;
+    font-family: 'PT Sans', sans-serif;}
+
+p{
+    padding-top: 20px;
+    margin-right: 100px;
+    margin-left: 100px;
+    padding-bottom: 60px;
+    
+}
+
+h1{
+    
+    text-align: center;
+    display: block;
+    font-family: 'PT Sans', sans-serif;;
+    font-size: 30px;
+    word-spacing: 2px;
+    letter-spacing: 0.5px;
+    color:#2a3937;
+}
+
+.-fx-image-gal {
+    padding-left: 100px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 990px;
+    justify-content: center;
+  }
+  .-fx-gal-item {
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+  }
+  
+  .-fx-gal-item a {
+    padding: 0;
+    margin: 0;
+    width: 60%;
+    height: 60%;
+    background-color: white;
+  }
+  
+  .-fx-gal-image-thumb img {
+    width: 50%;
+    cursor: pointer;
+    -webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+    filter: grayscale(100%);
+    transform: scale(1.1);
+    transition: all 0.5s ease;
+  }
+  
+  .-fx-gal-image-thumb:hover img {
+    cursor: pointer;
+    -webkit-filter: grayscale(0%);
+    -moz-filter: grayscale(0%);
+    filter: grayscale(0%);
+    transform: scale(1.5);
+    transition: all 0.5s ease;
+  }
+  @media (min-width: 420px) {
+    .-fx-image-gal {
+      flex-direction: row;
+      flex-wrap: wrap;
+    }
+    .-fx-gal-item {
+      width: 50%;
+    }
+  }
+  @media (min-width: 768px) {
+    .-fx-gal-item {
+      width: 33.33%;
+    }
+  }
+
+
+  .container{
+    padding-top: 80px;
+    justify-content: center;
+    padding-right: 100px;
+  }
+
+
+  button {
+    display: inline-block;
+    background-color: #7b38d8;
+    border-radius: 30px;
+    border: 4px double #cccccc;
+    color: #eeeeee;
+    text-align: center;
+    font-size: 12px;
+    padding: 20px;
+
+    width: 200px;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+  }

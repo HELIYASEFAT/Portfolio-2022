@@ -1,4 +1,4 @@
-var words = ['Hi i am an artist', 'I paint', 'I design too', ' please look at my site', 'support, if you can!'],
+var words = ['this is my portfolio', 'you can see my recent works', 'find the link to my etsy',  'support, if you can!'],
     part,
     i = 0,
     offset = 0,
