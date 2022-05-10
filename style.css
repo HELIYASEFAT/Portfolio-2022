@@ -6,7 +6,8 @@
 } 
 
 body{
-  background-image: url(Background.jpg);
+  background-image: url(hello.jpg);
+  background-repeat: no-repeat;
   margin: 0 auto;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -30,7 +31,7 @@ h1 {
   align-items: center;
   text-align: center;
   margin-top: 20px;
-  color: #709680;
+  color: #2d4337;
   font: 300 normal 2.5em 'tahoma';
 }
   
@@ -97,12 +98,13 @@ h1 {
     display: flex;
     flex-flow: column nowrap;
     justify-content: space-around;
-    padding: 10px;
+    padding:20px;
     height: 50%;
   }
   .ham-menu > ul > li {
     font-size: 2.2rem;
     white-space: nowrap;
+    text-decoration: none;
     letter-spacing: 0.15em;
     cursor: pointer;
     color: rgb(97, 97, 97);
@@ -185,47 +187,61 @@ h1 {
   }
  
   a {
-    font-size: 1.6rem;
+    
     line-height: 1.5em;
-    word-spacing: 0.5em;
-    letter-spacing: 0.1em;
+    text-decoration: inherit;
     font-family: 'Dawning of a New Day', cursive;
-    display: inline;
+    
     font-weight: bold;
-    padding: 7px;
+    
     color: var(--icon-hover-bg);
+    font-size: 2.2rem;
+    white-space: nowrap;
+    letter-spacing: 0.15em;
+    cursor: pointer;
+    color: rgb(97, 97, 97);
+  }
+  a:link{ text-decoration: none;
+  }
+  a:hover{
+    text-decoration: underline;
   }
   a::after {
     content: "\e806";
     display: inline-block;
-
-    padding: 5px;
     font-size: 1.6rem;
     transform: rotate(-90deg);
   }
   .text {
-    font-size: 20px;
+    font-size: 2.5rem;
     line-height: 1.5em;
     word-spacing: 0.5em;
     letter-spacing: 0.1em;
-    font-family: 'Dawning of a New Day', cursive;
+    font-family: "OpenSansCondensed-Bold", sans-serif;
   }
   .title {
-    font-size: 30px;
+    font-size: 3rem;
     line-height: 1.5em;
     word-spacing: 0.5em;
     letter-spacing: 0.1em;
-    font-family: 'Dawning of a New Day', cursive;
+    font-family: "OpenSansCondensed-Bold", sans-serif;
     color: var(--icon-hover-bg);
     padding: 10px;
   }
   .heading {
-    font-size: 2rem;
+    font-size: 6rem;
     line-height: 1.5em;
     word-spacing: 0.5em;
     letter-spacing: 0.1em;
-    font-family: 'Dawning of a New Day', cursive;
+    font-family: "Patua One";
   }
+  .centre-text {
+    text-align: center;
+  }
+  .bold-text {
+    font-weight: bold;
+  }
+  
   .centre-text {
     text-align: center;
   }
